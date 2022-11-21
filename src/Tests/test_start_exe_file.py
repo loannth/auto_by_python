@@ -1,4 +1,4 @@
-import os_utils
+from src.utils import os_utils
 from pywinauto import Application
 
 def open_coccoc_install_dialog(file_name='CocCocSetup.exe'):
